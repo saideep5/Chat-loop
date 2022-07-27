@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="app">
+            <div class="header-container">
+                <h4 class="heading">My App</h4>
+            </div>
+            <div class="form">
+                <div class="left-form">
+                    <form class="form-box">
+                        <div class="textarea-container">
+                            <textarea id="textarea" placeholder="Enter you text..."></textarea>
+                        </div>
+                        <div class="form-function">
+                            <div class="input-fields">
+                                <input type="color" id="color-code" class="color-picker">
+                                <input type="text" id="text-size" 
+                                class="font-size-input" value="15">
+                            </div>
+                            <div>
+                                <button class="form-save" id="save-form" type="submit">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="right-form">
+                    <div class="message-list" id="message-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
